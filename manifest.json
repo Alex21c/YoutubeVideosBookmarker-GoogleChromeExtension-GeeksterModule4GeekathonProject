@@ -2,21 +2,23 @@
   "manifest_version": 3,
   "name": "Bookmark YouTube Videos",
   "description": "This extension will help you to bookmark yours youtube videos by saving video timeline intervals and allows you to jump to specific timeline interval for that particular video, helpful for resuming video you added to watch later or making important notes for the lectures you're watching or bookmarking the begining of yours favourite songs!",
-  "version": "1.0",
-  "permissions": ["activeTab"],
+  "version": "1.0.0",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://*.youtube.com/*"],
   "action": {
     "default_popup": "index.html",
-    "default_icon": "Assests/Favicon/favicon.png"
+    "default_icon": "Assests/Favicon/favicon.png",
+    "default_title": "Bookmark YouTube Videos"
+
   },
   "background": {
     "service_worker": "Scripts/serviceWorker.js"
   },  
   "content_scripts": [
     {
-      "js": ["Scripts/content.js"],
+      "js": ["Scripts/view.js"],
       "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*"
+        "https://*.youtube.com/*"        
       ]
     }
   ],
@@ -26,5 +28,11 @@
     "64":  "Assests/Favicon/favicon-64.png",
     "128":  "Assests/Favicon/favicon-128.png",
     "256":  "Assests/Favicon/favicon-256.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["instructionsHowToUse.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
