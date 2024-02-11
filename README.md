@@ -19,7 +19,6 @@ npm run start
 + [Google chrome StorageAPI](https://developer.chrome.com/docs/extensions/reference/api/storage)
 + [Google chrome NativeMessagingAPI](https://developer.chrome.com/docs/extensions/reference/api/tabs)
 + [Google chrome RuntimeAPI](https://developer.chrome.com/docs/extensions/reference/api/runtime)
-+ [Tailwind CSS](https://tailwindcss.com/)
 + [HTML5](https://en.wikipedia.org/wiki/HTML5)
 + [CSS3](https://en.wikipedia.org/wiki/CSS)
 + [Tailwind CSS](https://tailwindcss.com/)
