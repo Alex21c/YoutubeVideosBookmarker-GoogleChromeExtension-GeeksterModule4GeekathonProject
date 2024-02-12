@@ -12,14 +12,12 @@
 
   },
   "background": {
-    "service_worker": "Scripts/serviceWorker.js"
+    "service_worker": "/MVC/serviceWorker.js"
   },  
   "content_scripts": [
     {
-      "js": ["Scripts/view.js"],
-      "matches": [
-        "https://*.youtube.com/*"        
-      ]
+      "js": ["/MVC/Controller.js"],
+      "matches": ["<all_urls>"]
     }
   ],
   "icons": {
@@ -31,7 +29,12 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["instructionsHowToUse.html"],
+      "resources": [
+        "instructionsHowToUse.html",
+        "/MVC/Model.js",
+        "/MVC/Controller.js",
+        "/MVC/view.js"
+      ],
       "matches": ["<all_urls>"]
     }
   ]

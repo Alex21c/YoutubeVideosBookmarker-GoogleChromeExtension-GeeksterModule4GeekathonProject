@@ -7,6 +7,6 @@
     "tailwindcss": "^3.4.1"
   },
   "scripts": {    
-    "start": "npx concurrently  \"tailwindcss -i CSS/src/installationCompleted.css -o CSS/dist/tailwindInstallationCompleted.css --watch\" \"tailwindcss -i CSS/src/index.css -o CSS/dist/tailwindIndex.css --watch \""
+    "start": "npx concurrently  \"tailwindcss -i CSS/src/installationCompleted.css -o CSS/dist/tailwindInstallationCompleted.css --watch\" \"tailwindcss -i CSS/src/index.css -o CSS/dist/tailwindIndex.css --watch\" "
   }
 }
