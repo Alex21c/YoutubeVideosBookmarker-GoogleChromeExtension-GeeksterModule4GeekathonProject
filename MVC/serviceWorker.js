@@ -29,14 +29,14 @@
 // })
 
 
-// // first time when extension is installed greet user!
-//   chrome.runtime.onInstalled.addListener(({reason}) => {
-//     if (reason === 'install') {
-//       chrome.tabs.create({
-//         url: "installationCompleted.html"
-//       });
-//     }
-//   });
+// first time when extension is installed greet user!
+  chrome.runtime.onInstalled.addListener(({reason}) => {
+    if (reason === 'install') {
+      chrome.tabs.create({
+        url: "installationCompleted.html"
+      });
+    }
+  });
 
 // /// (BEGIN OF ) BASIC CODE SNIPPET FROM CHROME DOCUMENTATION FOR MESSAGE PASSING BETWEEN serviceWorker and controller.js
 // // chrome.runtime.onMessage.addListener(

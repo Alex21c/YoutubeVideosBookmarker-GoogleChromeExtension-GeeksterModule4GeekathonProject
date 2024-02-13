@@ -63,4 +63,24 @@ npm run start
 ```
 
 ## 10. For Installing this extension directly on Google chrome
-+ Just Import the manifest.json file/Directory into google chrome load unpacked extensions and it will be installed on yours Google Chrome
++ Just Import the manifest.json file/Directory into google chrome load unpacked extensions and it will be installed on yours Google Chrome, here is the guide
+![](Screenshots/InstallationOnChrome/step-1-open-google-chrome.png)
+![](Screenshots/InstallationOnChrome/step-2-choose-manage-extensions.png)
+![](Screenshots/InstallationOnChrome/step-3-copying-repo-dir-path.png)
+![](Screenshots/InstallationOnChrome/step-4-choose-load-unpacked-extensions.png)
+![](Screenshots/InstallationOnChrome/step-5-extension-installed-successfully.png)
+![](Screenshots/InstallationOnChrome/step-6-pin-the-extension-for-quick-access.png)
+![](Screenshots/InstallationOnChrome/step-7-click-on-the-extension-icon.png)
+![](Screenshots/InstallationOnChrome/step-8-open-any-random-youtube-video-of-yours-choice.png)
+![](Screenshots/InstallationOnChrome/step-9-click-on-the-extension-bookmark-button.png)
+![](Screenshots/InstallationOnChrome/step-10-click-on-the-extension-button-and-notice-the-timestamp-bookmark.png)
+![](Screenshots/InstallationOnChrome/step-12-navigate-video-and-mark-another-book-mark.png)
+![](Screenshots/InstallationOnChrome/step-13-one-more-bookmark-add.png)
+![](Screenshots/InstallationOnChrome/step-14-notice-all-three-bookmarks.png)
+![](Screenshots/InstallationOnChrome/step-15-click-on-bookmark-2nd.png)
+![](Screenshots/InstallationOnChrome/step-16-jumping-to-first-bookmark.png)
+![](Screenshots/InstallationOnChrome/step-17-deleting-third-bookmark.png)
+![](Screenshots/InstallationOnChrome/step-18-notice-third-bookmark-deleted.png)
+![](Screenshots/InstallationOnChrome/step-19-notice-all-bookmarks-deleted.png)
+![](Screenshots/InstallationOnChrome/step-20-removing-extension.png)
+![](Screenshots/InstallationOnChrome/step-21-make-a-wish-for-my-financial-freedom.png)
