@@ -73,11 +73,13 @@
   chrome.tabs.onUpdated.addListener((tabId, tab)=>{
     if(tab.url?.includes("youtube.com/watch")){
       // inject controller.js
-        chrome.scripting.executeScript({
-          target: { tabId: tabId },
-          files: ['/MVC/Controller.js']
-          
-        });
+        setTimeout(()=>{
+          chrome.scripting.executeScript({
+            target: { tabId: tabId },
+            files: ['/MVC/Controller.js']          
+          });
+  
+        },2000);
 
 
 
@@ -107,7 +109,7 @@
           chrome.tabs.sendMessage(
             tabId,msg
           );
-        },2000);
+        },4000);
   
 
        
