@@ -1,5 +1,5 @@
 # Youtube Videos Bookmarker || Google Chrome Extension || Geekster Module #4 Geekathon Project
-![](posterImage.png)
+![](Screenshots/posterImage.png)
 
 ## 1. Developer
 [Abhishek kumar](https://www.linkedin.com/in/alex21c/), ([Geekster](https://geekster.in/) MERN Stack FS-14 Batch) || Team-12
