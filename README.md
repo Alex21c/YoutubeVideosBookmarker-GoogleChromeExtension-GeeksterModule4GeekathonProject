@@ -3,7 +3,7 @@
 
 ## 1. Credits
 1. [Geekster](https://www.geekster.in/)
-2. [Akash Shukla](https://www.linkedin.com/in/akash-shukla-937a23162/)Sir (Captain Team-12)
+2. [Akash Shukla](https://www.linkedin.com/in/akash-shukla-937a23162/) Sir (Captain Team-12)
 3. [Trisha Das](https://www.linkedin.com/in/trisha-das1308/) Mam (Mentor)
 4. [Sudhendra Singh](https://www.linkedin.com/in/sudhendra-singh-168831130/) Sir (Educator)
 5. [Akhil Sharma](https://www.linkedin.com/in/akhil-sh06/) Sir (Educator)
