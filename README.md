@@ -1,4 +1,5 @@
 # Youtube Videos Bookmarker || Google Chrome Extension || Geekster Module #4 Geekathon Project
+![](posterImage.png)
 
 ## 1. Developer
 [Abhishek kumar](https://www.linkedin.com/in/alex21c/), ([Geekster](https://geekster.in/) MERN Stack FS-14 Batch) || Team-12
@@ -44,7 +45,9 @@ This extension will help you to bookmark yours youtube videos by saving video ti
 
 
 ## 8. ScreenShots
-
+![](Screenshots/1-non-youtube-website.png)
+![](Screenshots/2.addBookmarkControl.png)
+![](Screenshots/3.ExtensionWithBookmarks.png)
 
 
 ## 9. How to set up the development environment on yours local machine
